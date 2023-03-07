@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500;1,800&display=swap'); 
+:root {
+    --biloba-flower: #aeb5ec;
+    --east-bay: #3a4c73;
+    --lighter-purple: #f2e7fe;
+}
+
+::selection {
+    background-color: var(--biloba-flower);
+    color: var(--east-bay);
+}
+
+html {
+    font-size: 150%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--east-bay);
+}
+
+.form-link {
+    font-size: 50px;
+
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    background-color: var(--biloba-flower);
+}
+
+.webTitle {
+    font-size: 100px;
+    padding: 0px 0px 50px 0px;
+    margin-left: 40px;
+    margin-top: -250px;
+}
+
+h2 {
+    margin: -50px 0px 0px 40px;
+    border-bottom: 2px solid var(--east-bay);
+}
+
+h3 {
+    margin-left: 40px;
+}
+
+#potatoLogo{
+    display: flex;
+    padding: 50px;
+    width: 90%;
+    height: 40%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.form {
+    display: block;
+}
+
+
+.form input{
+    transform: translateY(400px);
+    font-size: 25px;
+    outline: none;
+    padding: 0px 15px;
+    margin-left: -700px;
+    border-radius: 25px;
+    border: 2px solid #CACACA;
+    color: var(--east-bay);
+    cursor: pointer;
+} 
+
+#searchBar {
+    padding-left: 50px; 
+    padding-right: 50px; 
+} 
+
+#searchBar:focus {
+    border-color: var(--east-bay);
+}
+
+
+input:focus {
+    border-bottom-width: 2px;
+}
+
+
+#loginBttn {
+    color: var(--east-bay);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    border-radius: 6px;
+    width: 80%;
+    transform: translateY(450px);
+    margin-left: -250px;
+}
+
+button:hover {
+    border: var(--lighter-purple);
+}
+
+@media screen and (min-width: 40em) {
+    #potatologo {
+        width: 90%;
+        height: 35%;
+    }
+    #navbar {
+        display: inline-block;
+        margin-top: -150px;
+        margin-bottom: -250px;
+    }
+}
+ 
+@media screen and (min-width: 60em) {
+    #potatologo {
+        width: 90%;
+        height: 30%;
+    }
+
+    #navbar {
+        display: inline-block;
+        margin-top: -150px;
+        margin-bottom: -250px;
+    }
+}
