@@ -5,16 +5,13 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "express-handlebars": "^7.0.1",
-    "express-session": "^1.17.3",
-    "sequelize": "^6.29.0"
+    "express-handlebars": "^4.0.4"
   }
 }
